@@ -1,7 +1,7 @@
 [[꼬리물기 질문 - Generic]]
 # 자바의 Generic과 컬렉션 프레임워크
 일반적으로 클래스를 만들 때 아래와 같은 형식으로 만듭니다.
-```JAVA title="Box.java"
+```java title="Box.java"
 class Box {
     private Object item;
     
@@ -16,7 +16,7 @@ class Box {
 ```
 
 여기서 Generic을 쓴다면 이렇게 쓸 수 있습니다.
-```JAVA
+```java
 class Box<T> {
     private T item;
     
