@@ -1,7 +1,7 @@
 [[꼬리물기 질문 - Generic]]
 # 자바의 Generic과 컬렉션 프레임워크
 일반적으로 클래스를 만들 때 아래와 같은 형식으로 만듭니다.
-```Java
+```Java title="Box.java"
 class Box {
     private Object item;
     
